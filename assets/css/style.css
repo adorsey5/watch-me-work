@@ -1,17 +1,17 @@
+/* Webpage Root Colors*/
 :root {
-    --first-color: #38fc6998;
-    --second-color: #02463da4;
-    --third-color: #39a6b2;
-    --fourth-color: hsl(183, 90%, 4%);
+    --first: #4ae203ca;
+    --second: rgb(255, 255, 255);
+    --third: #083b1d;
+    --fourth: #001b18a4;
   }
-  
-
-/* Remove browser-enforced styles & Applies CSS vaules for every element */
- * {
+  /* Remove browser-enforced styles & Applies CSS vaules for every element */
+  * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+  
   body {
     color: var(--third-color);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -66,11 +66,16 @@ header h1 {
   }
   
   header nav ul li a:hover {
-    background: var(--primary-color);
-    color: var(--secondary-color);
+    background: var(--first-color);
+    color: var(--second-color);
     border-radius: 15px;
     text-shadow: none;
   }
+
+  main {
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
   /* Hero Content */
 .hero {
     background: rgb(0, 0, 0);
