@@ -240,3 +240,57 @@ margin-bottom: 15px;
     font-weight: bolder;
     padding: 5px;
   }
+
+  /* Styled the media query for smaller desktop screens and smaller
+Max Width 980px*/
+
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+    }
+  
+    header h1 {
+      text-align: center;  
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+        
+    }
+  
+    header nav ul {
+      justify-content: center;
+      width: 100%;
+    }
+  
+    header nav ul li a {
+      font-size: 25px;
+    }
+    
+  .hero {
+    padding-left: 55px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .content-section > div {
+      flex: 0 0 100%;
+  }
+
+  .content-section h2 {
+    border-right: none;
+    border-bottom:solid var(--first) 4px  ;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: 7vw;
+  }
+
+  .content-section p {
+    font-size: 18px;
+  }
+}
