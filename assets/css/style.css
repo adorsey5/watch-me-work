@@ -217,3 +217,26 @@ margin-bottom: 15px;
 .placeholder {
   background-image: url("../images/placeholder.png");
 }
+
+/* Styled the CONTACT SECTION with flex properties*/
+.contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contact address a:hover {
+    color: var(--light);
+  }
+  
+  .contact address a {
+    color: var(--third);
+    background-image: var(--second), var(--second);
+    display: inline-block;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: bolder;
+    padding: 5px;
+  }
