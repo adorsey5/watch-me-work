@@ -79,46 +79,42 @@
     border-radius: 15px;
     text-shadow: none;
   }
-  
-  /* Hero Content */
+
+ /* Styled HERO SECTION with flex properties*/
 .hero {
-    background: rgb(0, 0, 0);
-    background-image: url("../images/hero-tree-top.jpg");
-    background-size: cover;
-    background-position: center;
-    min-height: 30vh;
-    color: var(--third-color);
-    padding: 2% 6%;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    text-align: right;
-    padding-left: 10vw;
+  background-image: url("../images/hero-tree-top.jpg") ;
+  background-size: cover;
+  color: var(--second);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  min-height: 0%;
+  padding: 1.5% 7.5%;
+  padding-left: 12vw;
+  padding-right: 14vw;
 }
 
-.hero img {
-    width: 350px;
-    margin: 30px;
-    border-radius: 9%;
-    align-self: center;
-}
-
-.hero img:hover{
-    max-width: 250px;
-    border-radius: 30%;
-    box-shadow: 5px 5px 15px 5px #000000;
+.hero img{
+  border-radius: 5%;
+  width: 300px;
+  margin: 25px 0;
+  border-style: solid;
 }
 
 .hero div {
-    flex: 0 0 90%;
+  flex: 0 1 90%;
 }
 
 .hero h2 {
-    background-color: var(--second-color);
-    color: var(--third-color);
-    margin: 0;
-    padding: 5px 10px;
-    font-size: 3.2rem;
-    line-height: 1.2;
-    display: inline;
+  border-radius: 4%;
+  border-style: solid;
+  color: var(--third);
+  background-color: var(--second);
+  font-size: 3.2rem;
+  display: inline;
+  margin: 0;
+  padding: 5px 10px;
+  line-height: 1.2;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
