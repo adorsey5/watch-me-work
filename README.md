@@ -1,7 +1,7 @@
 # :open_file_folder: Professional Portfolio: Advanced CSS Challenge :open_file_folder:
 
 ## Overview :book:
-For this challenge I was assigned to showcase my portfolio, of several deployed web apps, to employers of using organized HTML, flex box, media queries advanced CSS variables.
+For this challenge I was assigned to showcase my portfolio, of several deployed web apps, in order to appeal to employers. This portfolio features organized HTML, flex box, media queries advanced CSS variables.
 
 ### User Story :notebook_with_decorative_cover:
 ```
@@ -34,6 +34,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 * Interactive links
 * Deployed Web Applications
 * Contact Info 
+* Responsive web design (RWD)
 
 ---
 
@@ -41,12 +42,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 Click the following link to visit the webpage:
 
-[A live link to the webpage](https://adorsey5.github.io/revise-the-sunrise/)
+[A live link to the webpage](https://adorsey5.github.io/watch-me-work/)
 
 
 The following image is a screenshot of the webpage:
 
-![Screenshot](./assets/images/Horiseon-refactor-screen-shot.png)
+![Screenshot](./assets/images/portfolio-screenshot.png)
 
 ---
 ## :capital_abcd:Languages and Technology Used :computer:
