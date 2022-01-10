@@ -188,7 +188,7 @@ margin-bottom: 15px;
     transition: all 1s;
     font-size: 1rem;
   }
-  
+
   /* Styled the Work Projects in a grid layout*/
 .run-buddy {
     background-image: url("../images/run\ buddy-screen\ shot.png");
@@ -208,4 +208,12 @@ margin-bottom: 15px;
   .grid-item:hover {
     background-color: hsla(50, 33%, 25%, .75);
   }
-  
+  /* Syled Project Images to be background images*/
+
+.horiseon {
+  background-image: url("../images/Horiseon-refactor-screen-shot.png");
+}
+
+.placeholder {
+  background-image: url("../images/placeholder.png");
+}
