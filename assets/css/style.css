@@ -118,3 +118,47 @@
   line-height: 1.2;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+/* Styled the MAIN CONTENT SECTION with flex properties*/
+main {
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+.content-wrapper {
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+margin-top: -40px;
+padding-top: 40px; 
+}
+
+.content-section {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+flex-direction: auto;
+align-items: stretch;
+margin: 25px 0;
+padding: 10px 0;
+}
+
+.content-section h2 {
+flex: 0 0 20%;
+text-align: right;
+font-size: 3.5rem;
+line-height: 1;
+padding-right: 15px;
+border-right: 5px solid var(--first);
+}
+
+.content-section > div {
+flex: 0 0 75%;
+flex-wrap: wrap;
+text-align: center;
+}
+
+.content-section p {
+color: var(--second);
+font-size: x-large ;
+margin-bottom: 15px;
+}
