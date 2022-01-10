@@ -294,3 +294,20 @@ Max Width 980px*/
     font-size: 18px;
   }
 }
+
+/* Styled the media query for tablets and smaller
+Max Width 768px*/
+@media screen and (max-width: 768px) {
+    .grid-item,.run-buddy {
+      grid-column: 1 / -1;
+    }
+  
+    .grid-container {
+      grid-auto-rows: minmax(200px, auto);
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: center;  
+    }
+  }
