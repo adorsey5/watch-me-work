@@ -189,3 +189,23 @@ margin-bottom: 15px;
     font-size: 1rem;
   }
   
+  /* Styled the Work Projects in a grid layout*/
+.run-buddy {
+    background-image: url("../images/run\ buddy-screen\ shot.png");
+    grid-row: span 2;
+    grid-column: span 8;
+  }
+  
+  .grid-item div {
+    background-color: var(--first);
+    border: solid;
+  }
+  
+  .grid-item h3 {
+    font-size: 1.5rem;
+  }
+  
+  .grid-item:hover {
+    background-color: hsla(50, 33%, 25%, .75);
+  }
+  
