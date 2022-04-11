@@ -1,7 +1,7 @@
 # :open_file_folder: Professional Portfolio: Advanced CSS Challenge :open_file_folder:
 
 ## Overview :book:
-For this challenge I was assigned to showcase my portfolio, of several deployed web apps, in order to appeal to employers. This portfolio features organized HTML, flex box, media queries advanced CSS variables.
+For this challenge I was assigned to showcase my portfolio, of several deployed web apps, in order to appeal to employers. This portfolio features my work as a fullstack developer.
 
 ### User Story :notebook_with_decorative_cover:
 ```

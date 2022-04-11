@@ -218,6 +218,9 @@ margin-bottom: 15px;
   background-image: url("../images/love-match-calculator-screenshot.png");
 }
 
+.OUiii {
+  background-image: url("../images/OUii-screenshot.png");
+}
 /* Styled the CONTACT SECTION with flex properties*/
 .contact address {
     display: flex;
